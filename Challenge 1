@@ -4,7 +4,7 @@ public class LookNSay
 {
   public static void main(String[] args)
   {
-      String input,output=" ";
+      String input,output=" ";                                    // taking integer input as String to avoid overflow or out of bounds exception
       int LengthOfSeries;
       int i=0,j=0,z=1,length;
       Scanner sc=new Scanner(System.in);
@@ -15,7 +15,7 @@ public class LookNSay
       length=input.length();                                      //length of entered input number.
       while(length<=LengthOfSeries)
       {
-        char[] newinput=input.toCharArray();                      //taking the input in the form of character array.
+        char[] newinput=input.toCharArray();                      //taking the input in the form of character array
         length=input.length();
         if(length==1)
         {
