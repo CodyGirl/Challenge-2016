@@ -8,9 +8,9 @@ public class Multipleletters
     String word;
     int i=0,j=0,z=1,length;
     Scanner sc=new Scanner(System.in);
-    word=sc.nextLine();
-    char[] newword=word.toLowerCase().toCharArray();
-    length=word.length();
+    word=sc.nextLine();                                               // taking the input string from the user.
+    char[] newword=word.toLowerCase().toCharArray();                  // converting the input string to character array by first making all the alphabets as lowercase.
+    length=word.length();                                             // calculating length of string.
     if(length==1)
     {
         System.out.println(newword[0]+"1");
@@ -23,13 +23,13 @@ public class Multipleletters
      }
      else
       {
-         System.out.print(""+newword[j]+""+z);
+         System.out.print(""+newword[j]+""+z);                        // z is the number of times each consecutive alphabet repeats. 
          z=1;
       }
      j++;
      if(j==(length-1))
      {
-        System.out.print(""+newword[j]+""+z);
+        System.out.print(""+newword[j]+""+z);                         //  condition where the pointer reaches to the last letter. 
      }
     }
   }  
