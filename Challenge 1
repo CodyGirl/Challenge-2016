@@ -9,13 +9,13 @@ public class LookNSay
       int i=0,j=0,z=1,length;
       Scanner sc=new Scanner(System.in);
       System.out.println("Enter your starting number: ");
-      input=sc.nextLine();
+      input=sc.nextLine();                                        //taking the input number from user.
       System.out.println("Enter the length of number: ");
-      LengthOfSeries=sc.nextInt();
-      length=input.length();
+      LengthOfSeries=sc.nextInt();                                //taking length up to which the user wants the output to be displayed.
+      length=input.length();                                      //length of entered input number.
       while(length<=LengthOfSeries)
       {
-        char[] newinput=input.toCharArray();
+        char[] newinput=input.toCharArray();                      //taking the input in the form of character array.
         length=input.length();
         if(length==1)
         {
@@ -28,18 +28,18 @@ public class LookNSay
           z++;
          else
             {
-             output=""+z+""+newinput[j];
+             output=""+z+""+newinput[j];                          //here z is the number of times a particular digit occurs and is followed by the digit.
              z=1;
              }
          j++;
          if(j==(length-1))
          {
-            output=output+""+z+""+newinput[j];
+            output=output+""+z+""+newinput[j];                    // its thecondition when the iteration reaches to last digit.
             System.out.println(output);
          }
         }
-       input=output;
-       length=input.length();
+       input=output;                                              // reinitialization of input so that in next next iteration the output is fed as input 
+       length=input.length();                                     // and the loop continues till length is less than user defined length i.e, LengthOfSeries.
        j=0;
        z=1;
     }
