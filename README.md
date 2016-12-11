@@ -3,7 +3,7 @@
 This repository contains certain problem statements or the challenges faced by me in 2016, solved in Java-7
 
 <ol>
-  <li><b>LookNSay:</b><br>
+  <li><b>Challenge 1 : LookNSay</b><br>
   <ul>
     <br>
     <li>This program is just like its name, it says what it looks at.</li>
@@ -11,7 +11,7 @@ This repository contains certain problem statements or the challenges faced by m
   </ul>
   </li> 
   <br>
-  <li><b>MultipleLetters:</b><br>
+  <li><b>Challenge 2 : MultipleLetters:</b><br>
     <ul>
     <br>
     <li>This program works on a similar basis as LookNSay.</li>
@@ -21,8 +21,19 @@ This repository contains certain problem statements or the challenges faced by m
   </li>
   <li><b>Challenge 3 : My website</b><br>
   <ul>
+  <br>
   <li>This folder contains two web pages.</li>
   <li>Bootstrap has been used as a framework.</li>
+  </ul>
+  </li>
+  <br>
+  <li><b>Challenge 4 : Error Message</b><br>
+    <ul>
+    <br>
+    <li>This program basically takes a list of strings as input and a specific string to be searched as an input.</li>
+    <li>Then the string is matched with all the strings present in the list.</li>
+    <li>Now those strings having same or upto two letters error with the original string are printed on the screen with a message like:<br>Did you mean "this"? or "this"</li>
+    <li>For example: list is {commit,hello,meet} and entered string is comit. so output should be : Did you mean commit?</li>
   </ul>
   </li>
 </ol>
