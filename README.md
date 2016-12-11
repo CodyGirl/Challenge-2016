@@ -1,6 +1,6 @@
 # Challenge-2016
 
-This repository contains certain problem statements or the challenges faced by me in 2016, solved in Java-7
+This repository contains certain problem statements or the challenges faced by me in 2016, solved in Java-7 and html.
 
 <ol>
   <li><b>Challenge 1 : LookNSay</b><br>
